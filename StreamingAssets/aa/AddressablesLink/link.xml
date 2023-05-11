@@ -1,13 +1,14 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="ArcObstacle" preserve="all" />
+    <type fullname="AudioChannel" preserve="all" />
+    <type fullname="AudioManager" preserve="all" />
+    <type fullname="AudioSO" preserve="all" />
     <type fullname="BallController" preserve="all" />
     <type fullname="BallMovement" preserve="all" />
-    <type fullname="BigObstacleData" preserve="all" />
-    <type fullname="BigObstacleGenerator" preserve="all" />
     <type fullname="BoolEventChannelSO" preserve="all" />
     <type fullname="ChainedObstacleGenerator" preserve="all" />
     <type fullname="ChannelLoaderSO" preserve="all" />
-    <type fullname="ColorsData" preserve="all" />
     <type fullname="ConfigPattern" preserve="all" />
     <type fullname="FadeController" preserve="all" />
     <type fullname="FadeManager" preserve="all" />
@@ -23,7 +24,7 @@
     <type fullname="LoadSceneSO" preserve="all" />
     <type fullname="MainMenuUIManager" preserve="all" />
     <type fullname="MovementHandler" preserve="all" />
-    <type fullname="MovePoints" preserve="all" />
+    <type fullname="MovementHandlerData" preserve="all" />
     <type fullname="NonUniformObstacles" preserve="all" />
     <type fullname="ObstacleConfig" preserve="all" />
     <type fullname="ObstacleConfigAddressable" preserve="all" />
@@ -35,10 +36,7 @@
     <type fullname="RefPointData" preserve="all" />
     <type fullname="RefPoints" preserve="all" />
     <type fullname="RotatorScript" preserve="all" />
-    <type fullname="SmallObstacleGenerator" preserve="all" />
-    <type fullname="SmallObstaclesData" preserve="all" />
     <type fullname="StartGameSceneManager" preserve="all" />
-    <type fullname="Target" preserve="all" />
     <type fullname="Vector2EventChannelSo" preserve="all" />
     <type fullname="VoidEventChannelSO" preserve="all" />
   </assembly>
@@ -71,7 +69,9 @@
     <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AudioClip" preserve="all" />
     <type fullname="UnityEngine.AudioListener" preserve="all" />
+    <type fullname="UnityEngine.AudioSource" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Camera" preserve="all" />
@@ -97,6 +97,7 @@
   <assembly fullname="UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.BoxCollider2D" preserve="all" />
     <type fullname="UnityEngine.CircleCollider2D" preserve="all" />
+    <type fullname="UnityEngine.EdgeCollider2D" preserve="all" />
     <type fullname="UnityEngine.PhysicsMaterial2D" preserve="all" />
     <type fullname="UnityEngine.Rigidbody2D" preserve="all" />
   </assembly>
