@@ -7,8 +7,10 @@
     <type fullname="BallController" preserve="all" />
     <type fullname="BallMovement" preserve="all" />
     <type fullname="BoolEventChannelSO" preserve="all" />
+    <type fullname="CapsuleScript" preserve="all" />
     <type fullname="ChainedObstacleGenerator" preserve="all" />
     <type fullname="ChannelLoaderSO" preserve="all" />
+    <type fullname="CircleScrript" preserve="all" />
     <type fullname="ConfigPattern" preserve="all" />
     <type fullname="FadeController" preserve="all" />
     <type fullname="FadeManager" preserve="all" />
@@ -36,6 +38,7 @@
     <type fullname="RefPointData" preserve="all" />
     <type fullname="RefPoints" preserve="all" />
     <type fullname="RotatorScript" preserve="all" />
+    <type fullname="SqureScript" preserve="all" />
     <type fullname="StartGameSceneManager" preserve="all" />
     <type fullname="Vector2EventChannelSo" preserve="all" />
     <type fullname="VoidEventChannelSO" preserve="all" />
