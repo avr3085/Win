@@ -37,6 +37,8 @@
     <type fullname="RefPoints" preserve="all" />
     <type fullname="RotatorScript" preserve="all" />
     <type fullname="StartGameSceneManager" preserve="all" />
+    <type fullname="TutorialData" preserve="all" />
+    <type fullname="TutorialMenuScript" preserve="all" />
     <type fullname="Vector2EventChannelSo" preserve="all" />
     <type fullname="VoidEventChannelSO" preserve="all" />
   </assembly>
