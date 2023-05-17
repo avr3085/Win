@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Orbit Blast</title>
+    <title>Unity WebGL Player | Orbit Blast</title>
     <link rel="shortcut icon" href="TemplateData/favicon.jpg">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
-    <div id="unity-container" style="width: 100%; height: 100%;">
+    <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=1080 height=1920></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
@@ -18,9 +18,9 @@
       </div>
       <div id="unity-warning"> </div>
       <div id="unity-footer">
-        <!-- <div id="unity-webgl-logo"></div>
+        <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">Orbit Blast</div> -->
+        <div id="unity-build-title">Orbit Blast</div>
       </div>
     </div>
     <script>
@@ -95,12 +95,11 @@
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-        canvas.style.width = "100%";
-        canvas.style.height = "100%";
+        canvas.style.width = "1080px";
+        canvas.style.height = "1920px";
       }
 
       loadingBar.style.display = "block";
-    
 
       var script = document.createElement("script");
       script.src = loaderUrl;
